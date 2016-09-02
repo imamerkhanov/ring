@@ -41,5 +41,4 @@ Credits
 -----
 
 Author: Ilshat Amerkhanov
-
 Email: imamerkhanov@bars-open.ru
