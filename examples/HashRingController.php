@@ -11,7 +11,7 @@ class HashRingController
     const NODES = 100;
     const VIRTUAL_NODES_PER_NODE = 1000;
 
-    public function actionIndex()
+    public function actionIndex($nc=0)
     {
         $s = microtime(1);
         $nc= empty($nc)?self::NODES:(int)$nc;

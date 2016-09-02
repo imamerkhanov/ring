@@ -166,14 +166,14 @@ class Builder
     public function initNewMap()
     {
         /** Если первая генерация */
-        if(array_sum($this->nodeIndexMap)<0)
+        if($this->prevBitCount==0)
         {
             $top = pow(2,$this->bitCount)-1;
 
+            $generateNextItems = new NodeIndexGenerator(count($this->nodes)-1);
             for($i=(count($this->nodeIndexMap)-1);$i<=$top;$i++)
                 $this->nodeIndexMap[$i]=-1;
 
-            $generateNextItems = new NodeIndexGenerator(count($this->nodes)-1);
             for($i=$top;$i>=0;$i--)
             {
                 if ($this->nodeIndexMap[$i] >= 0)

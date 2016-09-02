@@ -10,7 +10,7 @@ class StandardRingController
     const ITEMS = 1000000;
     const NODES = 100;
 
-    public function actionIndex()
+    public function actionIndex($nc=0)
     {
         $s = microtime(1);
 
