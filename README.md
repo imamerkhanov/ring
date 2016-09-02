@@ -1,25 +1,35 @@
 Ring extension
 ==============
 
-Это расширение делалось для теста методов консистентного хеширования
+This expansion was done to test methods of greasy hash
 
 
 Installation
 ------------
 
-Предпочтительный способ установить это расширение через [composer](http://getcomposer.org/download/).
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-В свой composer.json добовляем
+Either run
+
+```
+php composer.phar require --prefer-dist imamerkhanov/ring "*"
+```
+
+or add
+
+```json
+"imamerkhanov/ring": "*"
+```
+and 
 ```
 "repositories": [{
     "type": "vcs",
     "url": "https://github.com/imamerkhanov/ring"
 }]
 ```
-и в секцию require-dev
-```
-"imamerkhanov/ring": "*",
-```
+to the require section of your composer.json.
+
+
 Usage
 -----
 
@@ -27,3 +37,9 @@ Usage
 $r = new StandardRing(['nodesCount'=>100]);
 $r->getNodeId($i);
 ```
+Credits
+-----
+
+Author: Ilshat Amerkhanov
+
+Email: imamerkhanov@bars-open.ru

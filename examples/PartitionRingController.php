@@ -1,4 +1,8 @@
 <?php
+/**
+ * @link https://github.com/imamerkhanov
+ * @author Ilshat Amerkhanov
+ */
 use imamerkhanov\ring\partition\Builder;
 
 class PartitionRingController

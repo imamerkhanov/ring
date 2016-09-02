@@ -1,11 +1,8 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: twk
- * Date: 26.08.16
- * Time: 20:51
+ * @link https://github.com/imamerkhanov
+ * @author Ilshat Amerkhanov
  */
-
 namespace imamerkhanov\ring\hash;
 
 use imamerkhanov\ring\Ring;

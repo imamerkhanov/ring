@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * @link https://github.com/imamerkhanov
+ * @author Ilshat Amerkhanov
+ */
 use imamerkhanov\ring\hash\HashRing;
 
 class HashRingController

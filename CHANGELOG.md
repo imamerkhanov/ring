@@ -60,3 +60,8 @@ Ring extension Change Log
 ------------------------
 
 - Add time test
+
+1.2.3, September 2, 2016
+------------------------
+
+- Fix README.md

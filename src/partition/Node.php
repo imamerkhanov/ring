@@ -1,11 +1,8 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: twk
- * Date: 25.08.16
- * Time: 19:06
+ * @link https://github.com/imamerkhanov
+ * @author Ilshat Amerkhanov
  */
-
 namespace imamerkhanov\ring\partition;
 
 

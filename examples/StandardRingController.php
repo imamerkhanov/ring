@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * @link https://github.com/imamerkhanov
+ * @author Ilshat Amerkhanov
+ */
 use imamerkhanov\ring\standard\StandardRing;
 
 class StandardRingController

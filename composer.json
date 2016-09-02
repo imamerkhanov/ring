@@ -7,7 +7,7 @@
       "email": "imamerkhanov@bars-open.ru"
     }
   ],
-  "version":"1.2.2",
+  "version":"1.2.3",
   "require": {
     "php":">=5.4.0"
   },

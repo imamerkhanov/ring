@@ -1,11 +1,8 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: twk
- * Date: 26.08.16
- * Time: 19:59
+ * @link https://github.com/imamerkhanov
+ * @author Ilshat Amerkhanov
  */
-
 namespace imamerkhanov\ring\standard;
 
 
