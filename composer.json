@@ -1,0 +1,22 @@
+{
+  "name": "imamerkhanov/ring",
+  "description": "Hash Ring module",
+  "authors": [
+    {
+      "name": "Amerkhanov Ilshat",
+      "email": "imamerkhanov@bars-open.ru"
+    }
+  ],
+  "version":"1.2.2",
+  "require": {
+    "php":">=5.4.0"
+  },
+  "suggest": {
+    "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations."
+  },
+  "autoload": {
+    "psr-4": {
+      "imamerkhanov\\ring\\": "src"
+    }
+  }
+}
